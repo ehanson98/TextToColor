@@ -1,0 +1,25 @@
+Idea for encoding integer values onto colors that are distiguishable by the human eye.
+black = 0
+white = 1
+green = 2
+blue  = 3
+purple= 4
+red   = 5
+orange= 6
+yellow= 7
+
+with the basic color wheel ( yellow orange red purple blue green (plus base values white and blue))
+we can represent 8 values
+
+if it's possible to bring the number of values to 16, we can represent any ascci char whith just 2
+colors
+                                                0 1 2 3 4 5 6 7 8 9  10 11 12 13 15 15
+ideas: introduce new colors between each value: y _ o _ r _ p _ u _  g  _  w  _  b  _
+                                                1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+                                                  br  pn  pl  lv  tl    ol    gr    gr+
+
+Also, there is the possibility of combining colors with symbols to make more possibilities.
+
+GOAL:
+to be able to make paintings that encode written text exclusively through color.
+
